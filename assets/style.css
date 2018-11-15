@@ -3,6 +3,7 @@ body{
 	padding: 0;
 	background-color: #A69C9B;
 	font-family: Arial,Lucida Sans;
+	
 }
 .wrapper{
 	min-height: 400px;
@@ -28,7 +29,7 @@ body{
 }
 .headerright{
 	height: 100%;
-	width: 30%;
+	width: 60%;
 	float: left;
 	color: white;
 	font-size: 16px;
@@ -48,6 +49,7 @@ body{
 	margin-top: 10px;
 }
 .left{
+	background-image: url(img/bc.jpg);
 	min-height: 400px;
 	max-height: auto;
 	width: 20%;
@@ -67,6 +69,8 @@ body{
 	cursor: pointer;
 }
 .right{
+	background-image: url(img/i1.jpg);
+
 	min-height: 400px;
 	max-height: auto;
 	width: 79%;
@@ -96,6 +100,7 @@ body{
 }
 .form
 {
+	background-image: url(img/bc.jpg);
 	height: 30px;
 	width: 240px;
 	border: 1px solid #ccf;
@@ -115,10 +120,10 @@ table{
 }
 @media (max-width: 955px){
 	.left{
-		width: 100%;
+		width: 50%;
 	}
 	.right{
-		width: 100%;
+		width: 50%;
 		margin-left: 0px;
 	}
 }
